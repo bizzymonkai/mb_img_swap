@@ -1,5 +1,6 @@
 /* mb_img_swap function
 // file: mb_img_swap.js
+// try it first: http://monkaiz.com/img/img_swap_test.html
 // Contributor: bizzymonkai
 
 Simple Rollover image object function
@@ -29,7 +30,7 @@ timgMO.png is the rollover img. it is a good idea to use the same dimensions for
 
 4) This completely frees the <a> tag from the equation. you can encapsulate rollovers in a link, or not, it doesn't matter. the rollover behavoir is now associated with the img class, and not the link's event behavoir. Rolls back instantly to original image. delete the obj.onmouseout = function() if you don't want it to rollback.
 
-5) test page and images are in this repository as 'img_swap_test.html'
+5) test page and images are in this repository as 'img_swap_test.html' OR simply visit http://monkaiz.com/img/img_swap_test.html
 
 6) DELETE ALL THESE INSTRUCTIONS IF YOU WANT
 */
