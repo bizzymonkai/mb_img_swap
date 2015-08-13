@@ -22,10 +22,11 @@ Instructions:
 3) Sample HTML markup:
 
 One Simple tag with new atttributes:
-<img class="mb_img_swap" height="64" width="64" src="img/ting.png" uber_src="img/_tingMO.png" />
+IMG Tag: use class="mb_img_swap"
+src="src of default img" 
+uber_src="src of img rollover"
 
-in this example: ting.png is the displayed default img
-timgMO.png is the rollover img. it is a good idea to use the same dimensions for the different images, obviously.
+it is a good idea to use the same dimensions for the different images, obviously.
 
 4) This completely frees the <a> tag from the equation. you can encapsulate rollovers in a link, or not, it doesn't matter. the rollover behavoir is now associated with the img class, and not the link's event behavoir. Rolls back instantly to original image. delete the obj.onmouseout = function() if you don't want it to rollback.
 
