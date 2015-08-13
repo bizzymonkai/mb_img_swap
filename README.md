@@ -28,7 +28,7 @@ uber_src="src of img rollover"
 
 it is a good idea to use the same dimensions for the different images, obviously.
 
-4) This completely frees the <a> tag from the equation. you can encapsulate rollovers in a link, or not, it doesn't matter. the rollover behavoir is now associated with the img class, and not the link's event behavoir. Rolls back instantly to original image. delete the obj.onmouseout = function() if you don't want it to rollback.
+4) This completely frees the A(LINK) tag from the equation. you can encapsulate rollovers in a link, or not, it doesn't matter. the rollover behavoir is now associated with the img class, and not the link's event behavoir. Rolls back instantly to original image. delete the obj.onmouseout = function() if you don't want it to rollback.
 
 5) test page and images are in this repository as 'img_swap_test.html'
 
